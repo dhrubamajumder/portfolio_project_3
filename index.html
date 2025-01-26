@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <header> -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- start - nav-bar  -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <a class="nav-link" href="#hero">Home</a>
+              <a class="nav-link" href="#aboutme">About Me</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#contact">Contact</a>
+           <!-- end nav-bar -->
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- </header> -->
+<!-- start main section  -->
+    <main>
+<!-- start ----- hero section  -->
+      <section id="hero">       
+        <div class="container vh-100 d-flex flex-row justify-content-center align-items-center">
+          <div class="box justify-content-center align-items-center d-flex flex-column">            
+            <h1 class="display-1" style="color: rgb(0, 21, 255);"><b>Dhruba</b></h1>
+            <h4 style="color: rgb(0, 17, 255);">I tech for fun.</h4>
+            <button type="button" class="btn btn-primary">Contact Me</button>
+          </div>          
+        </div> 
+      </section>
+
+
+      <section id="aboutme">
+        <div class="container">
+          <div class="row">
+            <div class="col-5 p-5">
+              <div class="profile-img mx-auto">
+                <img src="https://picsum.photos/seed/random/500/500" class="rounded-circle h-100" alt="">
+              </div>
+            </div>
+            <div class="col-7 p-5">
+              <h2 class="display-3">About Me</h2><hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eligendi rem illum vero
+                deleniti similique unde animi, cumque perspiciatis est vel debitis consequatur? Similique 
+                ipsam inventore, corrupti repellat recusandae neque.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- end --------- hero section  -->
+<!-- ----------------------------------- -->
+<!-- start -----  skills section  -->
+      <section id="skills">
+        <div class="container py-5">
+          <h2 class="display-2 text-center pb-5">Skills</h2><hr>
+          <div class="row">
+            
+            <div class="col-sm-6"> 
+              <h2>HTML</h2>
+              </div>
+            </div>
+<!-- ----------------------------- -->
+            <div class="col-sm-6"> 
+              <div class="progress mb-5" role="progressbar" aria-label="HTML" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">                
+                <div class="progress-bar bg-danger" style="width: 70%">HTML 70%</div>
+              </div>
+              
+              <h2>CSS</h2>
+              <div class="progress mb-5" role="progressbar" aria-label="CSS" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">                
+                <div class="progress-bar bg-primary" style="width: 50%">CSS 50%</div>
+              </div>
+
+              <H2>JavaScript</H2>
+              <div class="progress mb-5" role="progressbar" aria-label="JavaScript" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">                
+                <div class="progress-bar bg-warning" style="width: 20%">js 20%</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section> 
+  <!-- end ------ skills section  -->
+<!-- --------------------------  -->
+ <!-- start ----  Portfolio section  -->
+      <section id="portfolio">
+        <div class="container py-5">
+          <h2 class="display-2 text-center pb-5">Project</h2><hr>
+          <div class="row">
+
+            <div class="col-md-6 col-lg-4 col-xl-3 py-3">
+              <div class="card mx-auto" style="width: 18rem;">
+                <img src="https://picsum.photos/seed/picsum/300/200" class="card-img-top" alt="...">
+                
+                <div class="card-body">
+                  <div class="badges">
+                    <span class="badge text-bg-danger">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-warning">js</span>
+                  </div>
+                  <h5 class="card-title">Project A</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-outline-info">Source Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 py-3">
+              <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://picsum.photos/seed/random/300/200" class="card-img-top" alt="...">
+                  
+                  <div class="card-body">
+                    <div class="badges pb-3">
+                      <span class="badge text-bg-danger">HTML</span>
+                      <span class="badge text-bg-primary">CSS</span>
+                      <span class="badge text-bg-warning">js</span>
+                    </div>
+                    <h5 class="card-title">Project B</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                    <div class="btn-group">
+                      <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-outline-info">Source Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 py-3">
+              <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://picsum.photos/seed/random1/300/200" class="card-img-top" alt="...">
+                  
+                  <div class="card-body">
+                    <div class="badges pb-3">
+                      <span class="badge text-bg-danger">HTML</span>
+                      <span class="badge text-bg-primary">CSS</span>
+                      <span class="badge text-bg-warning">js</span>
+                    </div>
+                    <h5 class="card-title">Project C</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                    <div class="btn-group">
+                      <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-outline-info">Source Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 py-3">
+              <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/seed/picsum3/300/200" class="card-img-top" alt="...">
+                
+                <div class="card-body">
+                  <div class="badges pb-3">
+                    <span class="badge text-bg-danger">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-warning">js</span>
+                  </div>
+                  <h5 class="card-title">Project D</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-outline-info">Source Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- end portfolio section  -->
+<!-- ------------------------------------------------  -->
+ <!-- start ---- -- contact section  -->
+      <section id="contact">
+        <div class="container py-5">
+          <h2 class="display-2 text-center pb-5">Contact</h2><hr>
+          <div class="row">
+            <div class="col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29205.791083482407!2d90.374144!3d23.7928448!2m3!1f0!2f0!3f0!
+              3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c74ecf8548bf%3A0x3ebb5b921e528ab!2sBangladesh%20Air%20Force%20Museum!5e0!3m2!1sen!2sbd!
+              4v1737898222632!5m2!1sen!2sbd" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">What's on your mind?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>   
+              </div>
+              <button class="btn btn-outline-primary px-5">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+ <!-- end --------- contact section  -->
+    </main>
+<!-- end main section  -->
+    <footer class="bg-dark">
+      <div class="container py-4 text-center">
+        <p>&copy;; 2025 Dhruba. All rights reserved</p>   
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
